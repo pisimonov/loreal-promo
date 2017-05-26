@@ -1,0 +1,259 @@
+
+
+.pl-grid {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.pl-media.pl-primary,
+.pl-media.pl-primary img {
+  width: 100%;
+  margin-left: 0;
+}
+
+.pl-clearfix:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.pl-grid .pl-col {
+  width: 100%;
+  float: none;
+}
+
+.pl-title.pl-small {
+  margin: 45px 0 25px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.pl-title.pl-large {
+  text-align: center;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.pl-paragraph {
+  margin: 30px auto;
+  width: 100%;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.pl-paragraph .pl-media {
+  text-align: center;
+  margin: 27px 0 24px;
+}
+
+.pl-paragraph .pl-media img {
+  display: inline;
+}
+
+.pl-quote {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.pl-quote:before,
+.pl-quote:after {
+  content: '„';
+  display: block;
+  font-size: 100px;
+  line-height: 36px;
+  text-align: center;
+  font-family: "times";
+  font-style: italic;
+}
+
+.pl-quote:before {
+  margin: 0 0 45px 10px;
+}
+
+.pl-quote:after {
+  margin: -10px 0 0 20px;
+}
+
+.pl-article {
+  margin-top: 130px;
+}
+
+.pl-article .pl-heading {
+  font-size: 48px;
+  line-height: 36px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 0 10px 0;
+  border-top: 1px solid #000;
+  position: relative;
+}
+
+
+
+.pl-article .pl-heading-text {
+  padding: 5px 15px;
+  background-color: #fff;
+  position: relative;
+  display: block;
+  width: 55%;
+  margin: -65px auto 0 auto;
+}
+
+.pl-article .pl-heading.pl-medium .pl-heading-text{
+  width: 70%;
+}
+
+.pl-article .pl-heading.pl-large .pl-heading-text{
+  width: 80%;
+}
+
+.pl-article .pl-gallery {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.pl-article .slick-dots {
+  margin-bottom: -25px;
+}
+
+
+.pl-article .slick-dots button:before {
+  font-size: 30px;
+}
+
+.pl-article .pl-photo img {
+  width: 100%;
+}
+
+.pl-article .pl-photo {
+  margin: 40px 0 0 0;
+}
+
+.pl-article .pl-review {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.pl-article .pl-review-side {
+  float: none;
+  margin-top: 35px;
+}
+
+.pl-article .pl-review-side img {
+  width: 100%;
+}
+
+.pl-article .pl-review-content {
+  padding-left: 0;
+  width: 100%;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 100;
+}
+.pl-article .pl-review-title {
+  margin-bottom: 30px;
+  font-weight: 500;
+  padding-top: 63px;
+  font-size: 24px;
+}
+
+
+
+.pl-article .pl-content-slider {
+  padding-top: 30px;
+  margin-bottom: 35px;
+}
+
+.pl-article .pl-content-slider .slick-arrow {
+  top: 50px;
+}
+
+.pl-article .pl-content-slider .slick-prev {
+  left: 80px;
+}
+
+.pl-article .pl-content-slider .slick-next {
+  right: 80px;
+}
+
+.pl-article .pl-content-slider .slick-arrow:before,
+.pl-article .pl-content-slider .slick-arrow:after  {
+  color: #000;
+}
+
+.pl-content-slider-item-title {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+.pl-interviews {
+  padding-top: 70px;
+}
+
+.pl-interview {
+  margin-bottom: 35px;
+  padding: 0 20px;
+}
+
+.pl-interview-question {
+  margin-bottom: 15px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.pl-kuz.pl-right-bottom,
+.pl-kuz.pl-left-bottom,
+.pl-bottom-photos .pl-serayamol,
+.pl-luciana.pl-right-bottom,
+.pl-luciana.pl-left-bottom {
+  margin-left: 0;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+
+}
+
+
+.pl-bw-gallery {
+  margin-top: 50px;
+  width: 100%;
+  margin-left: 0;
+}
+
+.pl-bw-gallery .pl-row.pl-centered {
+  text-align: center;
+}
+
+.pl-bw-gallery .pl-row img {
+  margin-top: 20px;
+  width: 100%;
+  display: block;
+}
+
+.pl-bw-gallery .pl-row img:first-child {
+  margin-right: 20px;
+}
+
+.pl-notes {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.pl-note {
+  margin: 15px 0;
+}
+
+.pl-note-name {
+  font-weight: bold;
+  display: block;
+}

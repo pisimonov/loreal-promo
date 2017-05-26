@@ -1,0 +1,261 @@
+
+
+.pl-grid {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+
+.pl-media.pl-primary {
+  margin-left: -145px;
+}
+
+.pl-clearfix:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.pl-grid .pl-col {
+  width: 50%;
+  float: left;
+}
+
+.pl-title.pl-small {
+  margin: 45px 0 25px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 100;
+}
+
+.pl-title.pl-large {
+  text-align: center;
+  font-size: 36px;
+  line-height: 60px;
+}
+
+.pl-paragraph {
+  margin: 30px auto;
+  width: 750px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.pl-paragraph .pl-media {
+  text-align: center;
+  margin: 27px 0 24px;
+}
+
+.pl-paragraph .pl-media img {
+  display: inline;
+}
+
+.pl-quote {
+  width: 680px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.pl-quote:before,
+.pl-quote:after {
+  content: '„';
+  display: block;
+  font-size: 100px;
+  line-height: 36px;
+  text-align: center;
+  font-family: "times";
+  font-style: italic;
+}
+
+.pl-quote:before {
+  margin: 0 0 45px 10px;
+}
+
+.pl-quote:after {
+  margin: -10px 0 0 20px;
+}
+
+.pl-article {
+  margin-top: 130px;
+}
+
+.pl-article .pl-heading {
+  font-size: 48px;
+  line-height: 36px;
+  text-align: center;
+  width: 750px;
+  margin: 0 auto;
+  padding: 40px 0 35px 0;
+  border-top: 1px solid #000;
+  position: relative;
+  font-weight: bolder;
+}
+
+.pl-article .pl-heading-text {
+  padding: 5px 15px;
+  background-color: #fff;
+  position: relative;
+  display: block;
+  width: 275px;
+  margin: -65px auto 0 auto;
+}
+
+.pl-article .pl-gallery {
+  width: 488px;
+}
+
+.pl-article .slick-dots button:before {
+  font-size: 30px;
+}
+
+.pl-article .pl-photo {
+  margin: 40px 0 0 10px;
+}
+
+.pl-article .pl-review {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.pl-article .pl-review-side {
+  float: left;
+  margin-top: 35px;
+
+}
+
+.pl-article .pl-review-content {
+  padding-left: 640px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 100;
+}
+.pl-article .pl-review-title {
+  margin-bottom: 30px;
+  font-weight: 500;
+  padding-top: 63px;
+  font-size: 24px;
+}
+
+
+
+.pl-article .pl-content-slider {
+  padding-top: 50px;
+}
+
+.pl-article .pl-content-slider .slick-arrow {
+  top: 50px;
+}
+
+.pl-article .pl-content-slider .slick-prev {
+  left: 80px;
+}
+
+.pl-article .pl-content-slider .slick-next {
+  right: 80px;
+}
+
+.pl-article .pl-content-slider .slick-arrow:before,
+.pl-article .pl-content-slider .slick-arrow:after  {
+  color: #000;
+}
+
+.pl-content-slider-item-title {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.pl-content-slider-item .pl-content-slider-item-img {
+  text-align: center;
+}
+
+.pl-content-slider-item .pl-content-slider-item-img img{
+  display: inline;
+}
+
+.pl-interviews {
+  padding-top: 70px;
+}
+
+.pl-interview {
+  margin-bottom: 35px;
+}
+
+.pl-interview.pl-padding {
+  padding-right: 20px;
+}
+
+.pl-interview-question {
+  margin-bottom: 15px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.pl-interview-answer {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 100;
+}
+
+.pl-luciana.pl-left-bottom {
+  margin-left: -125px;
+  margin-top: -20px;
+}
+
+.pl-luciana.pl-right-bottom {
+  margin-top: 100px;
+}
+
+.pl-bottom-photos .pl-serayamol{
+  margin-top: 40px;
+  margin-left: -95px;
+}
+
+
+.pl-kuz.pl-left-bottom {
+  margin-top: 90px;
+  margin-left: -100px;
+}
+
+.pl-kuz.pl-right-bottom{
+  margin-top: 40px;
+}
+
+.pl-bw-gallery {
+  margin-top: 50px;
+  width: 1280px;
+  margin-left: -145px;
+}
+
+.pl-bw-gallery .pl-row.pl-centered {
+  text-align: center;
+}
+
+.pl-bw-gallery .pl-row img {
+  margin-top: 20px;
+  display: inline;
+}
+
+.pl-bw-gallery .pl-row img:first-child {
+  margin-right: 20px;
+}
+
+.pl-notes {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.pl-note {
+  margin: 15px 0;
+}
+
+.pl-note-name {
+  font-weight: bold;
+}
